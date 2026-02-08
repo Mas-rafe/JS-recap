@@ -1,6 +1,3 @@
-const fullName = (first,last = '') =>{
-    const name = first + '' + last;
-    console.log(name);
-    
-}
-fullName('kamal')
+const price = 50;
+const discountedPrice = `Discounted Price after 20% discount ${price * 0.8}`
+console.log(discountedPrice);
