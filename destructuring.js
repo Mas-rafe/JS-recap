@@ -20,7 +20,7 @@ const yourPay = price - discount;
 const vatAmount = price*7/100;
 const totalAmount =  yourPay + vatAmount;
 
-const device = {name:'phone' , brand:'samsung' price: 10000 };
+const device = {name:'phone' , brand:'samsung' ,price: 10000 };
 const { brand } = device;
 
 //---------------------------------------------//
